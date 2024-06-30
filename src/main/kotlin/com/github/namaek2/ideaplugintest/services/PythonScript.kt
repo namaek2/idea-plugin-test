@@ -5,7 +5,7 @@ import java.io.IOException
 class PythonScript {
 
     fun runPythonScript(javaFilesPath: String, outputFolder: String) {
-        val scriptPath = "test/idea-plugin-test/pyscr/test.py" // Python 스크립트의 경로를 지정하세요.
+        val scriptPath = "idea-plugin-test/pyscr/test.py" // Python 스크립트의 경로를 지정하세요.
 
         // ProcessBuilder를 사용하여 프로세스를 설정합니다.
         val processBuilder = ProcessBuilder("python", scriptPath, javaFilesPath, outputFolder)
