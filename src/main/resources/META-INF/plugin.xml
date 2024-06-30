@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.namaek2.ideaplugintest</id>
-    <name>idea-plugin-test</name>
+    <name>Hello IDE with Python</name>
     <vendor>namaek2</vendor>
 
     <depends>com.intellij.modules.platform</depends>
